@@ -2,6 +2,7 @@ package com.howtodoinjava.hessianserver.hessian;
 
 import java.util.Date;
 
+
 public class HelloWorldImpl implements HelloWorld {
 
 	@Override

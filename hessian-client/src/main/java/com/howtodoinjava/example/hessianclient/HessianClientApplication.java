@@ -16,7 +16,7 @@ public class HessianClientApplication {
 	@Bean
 	public HessianProxyFactoryBean hessianInvoker() {
 		HessianProxyFactoryBean invoker = new HessianProxyFactoryBean();
-		invoker.setServiceUrl("git commit -m \"first commit\"");
+		invoker.setServiceUrl("http://localhost:8080/hellohessian");
 		invoker.setServiceInterface(HelloWorld.class);
 		return invoker;
 	}
