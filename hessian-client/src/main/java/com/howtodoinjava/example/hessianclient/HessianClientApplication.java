@@ -35,7 +35,8 @@ public class HessianClientApplication {
 			threads[i] = new Thread(() -> {
 				for (int j=0; j< numberOfMessage; j++) {
 					int index = (int) (Math.random() * 1000);
-					helloWorld.sayHelloWithHessian(String.valueOf(index));
+					String s = helloWorld.sayHelloWithHessian(String.valueOf(index));
+					if (j % 100 == 0) System.out.println(s);
 				}
 			});
 			threads[i].start();
