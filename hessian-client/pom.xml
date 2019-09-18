@@ -40,6 +40,24 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+        <dependency>
+            <groupId>com.legsem.legstar</groupId>
+            <artifactId>legstar-coxbapi</artifactId>
+            <version>1.6.0</version>
+        </dependency>
+
+		<dependency>
+			<groupId>com.legsem.legstar</groupId>
+			<artifactId>legstar-core</artifactId>
+			<version>1.6.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.legsem.legstar</groupId>
+			<artifactId>legstar-coxbrt</artifactId>
+			<version>1.6.0</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
